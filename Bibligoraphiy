@@ -1,0 +1,74 @@
+<%-- 
+    Document   : registerForm
+    Created on : 31/03/2015, 7:39:37 PM
+    Author     : Anthony
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    String dbTitle = request.getParameter("dbTitle");
+    String dbAuthors = request.getParameter("dbAuthros");
+    String dbJournal = request.getParameter("dbJournal");
+    String dbYear = request.getParameter("dbYear");
+    String dbCrediablitly = request.getParameter("dbCredability");
+    String dbRating= request.getParameter("dbCredability");
+    String dbReason= request.getParameter("dbRating");
+    String username = request.getParameter("dbreason");
+    %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Registration</title>
+    </head>
+    <body>
+        <form method="post" action="http://localhost:8080/AutomotiveWebpage/RegisterServlet">
+            <center>
+            <table border="1" width="30%" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th colspan="2">Enter Your Information Here</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Title</td>
+                        <td><input type="text" name="dbTitle" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Author</td>
+                        <td><input type="text" name="dbAuthor" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Journal</td>
+                        <td><input type="text" name="dbJournal" value="" />
+                        <input type="text" name="dbYear" value=""
+                               /></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td><input type="text" name="dbCredability" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td><input type="text" name="dbrating" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="dbReason" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>User Name</td>
+                        <td><input type="text" name="username" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" /></td>
+                        <td><input type="reset" value="Reset" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Already registered!! <a href="index.jsp">Login Here</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+        </form>
+    </body>
+</html>
