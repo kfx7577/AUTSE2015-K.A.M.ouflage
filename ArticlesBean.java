@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author Sherwin
+ * @author Anthony
  */
 public class ArticlesBean implements Serializable 
 {
