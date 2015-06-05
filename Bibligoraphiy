@@ -44,15 +44,15 @@
                                /></td>
                     </tr>
                     <tr>
-                        <td>City</td>
+                        <td>Credibility</td>
                         <td><input type="text" name="dbCredability" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Country</td>
+                        <td>Rating</td>
                         <td><input type="text" name="dbrating" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Email</td>
+                        <td>Reason</td>
                         <td><input type="text" name="dbReason" value="" /></td>
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered!! <a href="index.jsp">Login Here</a></td>
+                        <td colspan="2">Not registering? <a href="index.jsp">Return to Home</a></td>
                     </tr>
                 </tbody>
             </table>
