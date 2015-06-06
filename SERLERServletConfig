@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>SERLERServlet Configuration Properties</comment>
+<entry key="dbDriver">org.apache.derby.jdbc.ClientDriver</entry>
+<entry key="dbUrl">jdbc:derby://localhost:1527/SERLER</entry>
+<entry key="dbTable">DOCUMENT_ARTICLE</entry>
+<entry key="dbTitle">TITLE</entry>
+<entry key="dbAuthors">AUTHORS</entry>
+<entry key="dbJournal">JOURNAL</entry>
+<entry key="dbDateOfPublish">DATE_OF_PUBLISH</entry>
+<entry key="dbDescription">DESCRIPTION</entry>
+<entry key="dbCredibility">CREDIBILITY</entry>
+<entry key="dbRating">RATING</entry>
+<entry key="user">root</entry>
+<entry key="pass">Insane!touhou999</entry>
+</properties>
