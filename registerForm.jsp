@@ -4,6 +4,7 @@
     Author     : Kenji(1304332) and Anthony Jansen (1251960)
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<link rel="stylesheet" type="text/css" href="MenuStyle.css">
 <!DOCTYPE html>
 <html>
     <head>
